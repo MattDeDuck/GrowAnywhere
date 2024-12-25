@@ -15,8 +15,8 @@ Note: You need the `BepInEx_64` version for use with Potion Craft
 
 
 ### Images
-![Garden](https://github.com/MattDeDuck/ShopName/blob/master/screenshots/garden1.png?raw=true)
+![Garden](https://github.com/MattDeDuck/GrowAnywhere/blob/master/screenshots/garden1.png?raw=true)
 
-![Pond](https://github.com/MattDeDuck/ShopName/blob/master/screenshots/garden2.png?raw=true)
+![Pond](https://github.com/MattDeDuck/GrowAnywhere/blob/master/screenshots/garden2.png?raw=true)
 
-![Grotto](https://github.com/MattDeDuck/ShopName/blob/master/screenshots/garden3.png?raw=true)
+![Grotto](https://github.com/MattDeDuck/GrowAnywhere/blob/master/screenshots/garden3.png?raw=true)
