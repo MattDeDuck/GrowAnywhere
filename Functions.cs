@@ -1,6 +1,9 @@
-﻿using PotionCraft.ScriptableObjects.BuildableInventoryItem;
+﻿using PotionCraft.ObjectBased.WateringPot;
+using PotionCraft.ScriptableObjects.BuildableInventoryItem;
 using PotionCraft.ScriptableObjects.BuildZone;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 
 namespace GrowAnywhere
 {
@@ -35,6 +38,15 @@ namespace GrowAnywhere
         {
             Dictionary<BuildableInventoryItemType, List<BuildableInventoryItem>> allBuildables = BuildableInventoryItem.allBuildableItems;
             return allBuildables[BuildableInventoryItemType.Seed];
+        }
+
+        public static void AllowGrottoWatering()
+        {
+            List<WateringPotItem> pots = Resources.FindObjectsOfTypeAll<WateringPotItem>().ToList();
+            foreach (var pot in pots)
+            {
+                pot.Settings.dropSpawnRooms.Add(PotionCraft.ObjectBased.RoomIndex.Grotto);
+            }
         }
     }
 }

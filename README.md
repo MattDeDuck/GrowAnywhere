@@ -1,6 +1,10 @@
 # Grow Anywhere
 Grow Anywhere is a mod made with BepInEx for use with the Potion Craft game. It allows you to plant all seeds in all available growing zones.
 
+Want to plant crystals on trees?...Go ahead!
+Want to plant herbs in the grotto...Go ahead!
+Want to plant crystals in the pond...sure why not!
+
 ### BepInEx
 - Download the latest BepInEx release from [here](https://github.com/BepInEx/BepInEx/releases)
 Note: You need the `BepInEx_64` version for use with Potion Craft

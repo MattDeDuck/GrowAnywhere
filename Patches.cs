@@ -12,9 +12,10 @@ namespace GrowAnywhere
         [HarmonyPostfix, HarmonyPatch(typeof(GameManager), "Start")]
         public static void Start_Postfix()
         {
-            Log.LogInfo("Patching seeds...");
+            Log.LogInfo("Patching seed and watering pot...");
             ObjectsLoader.AddLast("SaveLoadManager.SaveNewGameState", () => Functions.AddZonesToSeeds());
-            Log.LogInfo("Seeds patched!");
+            ObjectsLoader.AddLast("SaveLoadManager.SaveNewGameState", () => Functions.AllowGrottoWatering());
+            Log.LogInfo("Seed and watering pot patched!");
         }
     }
 }
