@@ -9,7 +9,7 @@ namespace GrowAnywhere
     public class Plugin : BaseUnityPlugin
     {
         public const string PLUGIN_GUID = "mattdeduck.potioncraftgrowanywhere";
-        public const string PLUGIN_VERSION = "1.0.0.0";
+        public const string PLUGIN_VERSION = "1.0.1.0";
 
         public static ManualLogSource Log { get; set; }
         public static bool alreadyDone = false;
